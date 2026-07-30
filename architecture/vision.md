@@ -2,7 +2,9 @@
 
 ## Overview
 
-RACCAROO Systems is an open-source smart home ecosystem designed to combine embedded devices, automation, and artificial intelligence into one scalable platform.
+RACCAROO Systems is an open-source AI-first ecosystem designed to orchestrate embedded devices, automation, and intelligent services through a modular architecture.
+
+Smart home automation is one of the ecosystem's primary applications, but the architecture is designed to support future integrations beyond the home environment.
 
 ## Problem Statement
 
@@ -16,7 +18,7 @@ RACCAROO Systems aims to create a unified, modular ecosystem where different dev
 
 The main goal is to create a modular smart home system that can be customized and expanded depending on user needs.
 
-The system should allow users to add new capabilities through independent modules such as sensors, smart devices, voice interfaces, cameras, and AI services.
+The ecosystem should allow users to extend its capabilities through independent modules such as smart home integrations, embedded devices, voice interfaces, AI services, communication platforms, productivity tools, and future system integrations.
 
 ## Core Principles
 
@@ -46,6 +48,34 @@ Hardware, software, and AI components should have clear responsibilities and com
 
 The goal is not only to automate existing tasks but to create a foundation for future intelligent home environments.
 
+## System Architecture
+
+### RACCAROO Core
+
+The central component of the ecosystem is the **RACCAROO Core**.
+
+The Core is responsible for reasoning, orchestration, automation, context management, and communication between all connected services.
+
+Artificial intelligence is one of the technologies used inside the Core, but the Core itself is designed as a platform rather than a single AI model.
+
+### Platform Independence
+
+RACCAROO Core should not depend on any specific smart home platform.
+
+Every external system communicates with the Core through dedicated integration modules.
+
+This allows the ecosystem to evolve independently while supporting multiple technologies and platforms.
+
+### Home Assistant Integration
+
+Home Assistant is treated as an integration service rather than the central controller.
+
+Its responsibility is to expose devices, execute commands, and provide information about the smart home environment.
+
+Business logic and decision making belong to the RACCAROO Core.
+
 ## Long-Term Vision
 
-The long-term goal is to build an intelligent home ecosystem that goes beyond simple automation and becomes a personal assistant capable of understanding users, managing devices, and adapting to everyday life.
+The long-term goal is to build a personal intelligent ecosystem capable of assisting users across multiple aspects of everyday life.
+
+Smart home automation represents the first major application of the platform, providing a practical environment for developing and validating the architecture before expanding into broader personal assistance capabilities.
