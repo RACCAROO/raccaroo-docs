@@ -1,12 +1,27 @@
 # RACCAROO Systems
 
-Open-source smart home ecosystem combining embedded systems, AI, and automation.
+Open-source, self-hosted, AI-first ecosystem for intelligent assistance, automation, external services, and physical environments.
 
 ## About
 
-RACCAROO Systems is a personal engineering project focused on building a modular smart home platform.
+RACCAROO Systems is an engineering project focused on building a modular intelligent platform that can operate locally and integrate with digital and physical environments.
 
-The goal is to create an expandable ecosystem where hardware devices, software services, and AI assistants can work together as one system.
+The goal is to create an expandable system where AI, software capabilities, external services, automation, embedded devices, and smart home systems can operate as parts of one ecosystem.
+
+Smart home automation is one of the first major application areas, but RACCAROO is designed to support broader use cases.
+
+## Main Goals
+
+- Build a modular RACCAROO Core
+- Support local and external AI providers
+- Build a capability-based system
+- Integrate external services and APIs
+- Support automation and scheduled tasks
+- Integrate with Home Assistant and embedded devices
+- Maintain user-controlled context and memory
+- Provide multiple user interfaces
+- Develop a safe mechanism for creating new capabilities
+- Gradually enable RACCAROO to extend its own functionality
 
 ## Documentation
 
@@ -14,13 +29,8 @@ The goal is to create an expandable ecosystem where hardware devices, software s
 - [System Overview](architecture/system-overview.md)
 - [Modules](architecture/modules.md)
 
-## Goals
-
-- Build embedded devices
-- Integrate with Home Assistant
-- Explore AI-powered automation
-- Create a scalable smart home ecosystem
-
-## Status
+## Current Status
 
 🚧 Project is currently in the architecture and foundation phase.
+
+The initial objective is to define the architecture and minimal Core before introducing concrete implementation technologies and infrastructure.
